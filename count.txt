@@ -1,0 +1,92 @@
+STARTING TASK - 1
+___________________________________________________________________________________________________________________________________
+Mandatory EDA initiated at  2020-09-08 17:05:34.552445
+
+
+Dropping non-essetial columns with more than 10 percent missing values
+The Following Columns are dropped:
+1: Sub-Product
+2: Sub-issue
+3:Consumer consent provided?
+4:ZIP code
+5:Tags
+
+
+Note*: Visualization with number of unique values in each column is saved as bar graph(task1_plot_2.pdf)
+
+
+Loan modification, collection and foreclosure - Top Issue raised by consumers
+
+
+More than 50 percent complaints are regarding the following products:
+1: Mortgage = 32.626
+2: Debt Coolection = 18.125
+
+
+Bank of america has the largest share of complaint i.e. 9.727 percent
+
+
+Highest percentage of complaints are submitted via Web
+
+
+Maximum number of complaints origintate from the state of California(14.595 percent)
+
+
+Closed with explanation is the most common response by the company
+
+
+The number of complaints recieved on 31 day of the month is significantly less that other days
+
+
+Number of complaints recieved in the months of March to June are significantly higher than rest of the months
+
+
+Number of complaints recived on weekdays are almost equal but significantly less number of complaints are recieved on weekends
+
+
+Timely/Late Response has no effect on weather or not the consumer will dispute the decision
+
+
+TASk 1 COMPLETED AT  2020-09-08 17:05:42.088425
+___________________________________________________________________________________________________________________________________
+
+
+TASK-2 STARTED AT  2020-09-08 17:05:42.089423
+
+
+The NLP DataFrame has  358810 rows and 2  columns
+The NLP DataFrame has  56180  rows and 2  columns after dropping NA values
+Note*: The Dataset is not balanced, appropiate steps need to be taken while using Machine Learning Algorithms
+
+
+[1 of 5] - Hyper Parameter Tuning For Logistic Regreesion  initiated at 2020-09-08 17:05:48.700777
+Hyper Parameter Tuning For Logistic Regreesion  completed at 2020-09-09 05:51:00.587777
+
+[2 of 5] - Hyper Parameter Tuning For Decision Tree initiated at 2020-09-09 05:51:00.587777
+Hyper Parameter Tuning For Decision Tree completed at 2020-09-09 06:06:30.844948
+
+[3 of 5] - Hyper Parameter Tuning for Random Forest initiated at 2020-09-09 06:06:30.844948
+[3 of 5] - Hyper Parameter Tuning for Random Forest completed at 2020-09-09 07:58:36.034729
+
+[4 of 5] - Hyper Parameter Tuning for Multinomial NB initiated at 2020-09-09 07:58:36.034729
+Hyper Parameter Tuning for Multinomial NB completed at 2020-09-09 07:58:40.750230
+
+[5 of 5] - Hyper Parameter Tuning for LinearSVC initiated at 2020-09-09 07:58:40.750230
+Hyper Parameter Tuning for LinearSVC completed at 2020-09-09 08:13:59.053680
+
+Skipping Hyper-Parameter Tuning, Selecting Best model and parameters from earlier results
+
+
+Using LinearSVC to train for NLP predictions
+
+
+training for NLP completed at 2020-09-09 08:14:19.376643
+________________________________________________________________________________________________________
+________________________________________________________________________________________________________
+NLP PREDICTION STARTED AT 2020-09-09 08:14:19.376643
+
+
+The final test dataframe has  56180 rows 2 columns
+NLP PREDICTION COMPLETED AT 2020-09-09 08:14:25.491293
+________________________________________________________________________________________________________
+________________________________________________________________________________________________________
